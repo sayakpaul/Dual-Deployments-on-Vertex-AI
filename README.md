@@ -5,4 +5,4 @@ Sample system architecture:
 
 ![](figures/sample_architecture.png)
 
-<sup>Figure developed by <a href="https://github.com/deep-diver>Chansung Park</a></sup>
+**<sup>Figure developed by <a href="https://github.com/deep-diver">Chansung Park</a></sup>**
