@@ -1,6 +1,9 @@
-We expose our notebooks that are fully runnable on [Google Colab](https://colab.research.google.com/) to facilitate easier learning. 
+We expose our notebooks that are fully runnable on [Google Colab](https://colab.research.google.com/) to facilitate easier learning. Below
+you can find short descriptions of the individual notebooks present here.
 
-| <h3>Notebook</h3> | <h3>Colab</h3>     | <h3>Description</h3>                       |
+## Notebooks
+
+| <h4>Notebook</h4> | <h4>Colab</h4>     | <h4>Description</h4>                       |
 | :-------- | :------- | :-------------------------------- |
 | `Dataset_Prep.ipynb` | <a href="https://colab.research.google.com/github/sayakpaul/Dual-Deployments-on-Vertex-AI/blob/main/notebooks/Dataset_Prep.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Prepares dataset for AutoML. |
 | `Dual_Deployments_With_AutoML.ipynb` | <a href="https://colab.research.google.com/github/sayakpaul/Dual-Deployments-on-Vertex-AI/blob/main/notebooks/Dual_Deployments_With_AutoML.ipynb"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a> | Shows how to build a Kubeflow Pipeline <br> to train and deploy two different models <br> using Vertex AI. |
