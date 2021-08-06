@@ -37,9 +37,9 @@ this scenario:
 **<sup>Figure developed by <a href="https://github.com/deep-diver">Chansung Park.</a></sup>**
 
 But the story does not end here. What if we wanted to have better control over the models to be built, trained,
-and deployed? Enter TFX! TFX provides the flexbility of writing custom components and including them inside a
+and deployed? Enter TFX! TFX provides the flexibility of writing custom components and including them inside a
 pipeline. This way Machine Learning Engineers can focus on building and training their favorite models and delegate
-a part of the heavylifting to TFX and Vertex AI. On Vertex AI (acting as an orchestrator) this pipeline will look like
+a part of the heavy lifting to TFX and Vertex AI. On Vertex AI (acting as an orchestrator) this pipeline will look like
 so:
 
 ![](https://i.ibb.co/98Ry74n/Screen-Shot-2021-08-06-at-1-43-35-AM.png)
