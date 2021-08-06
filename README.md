@@ -18,7 +18,7 @@ Sometimes we also do layered predictions where we first divide a problem into sm
 
 In these cases, 1) takes place on-device and 2) takes place on the cloud to ensure a smooth UX. Furthermore, it's
 a good practice to use a mobile-friendly network architecture (such as MobileNet) when considering
-mobile deployments. This leads us to following question: 
+mobile deployments. This leads us to the following question: 
 
 _**Can we train two different models within the same deployment pipeline and manage them seamlessly?**_
 
