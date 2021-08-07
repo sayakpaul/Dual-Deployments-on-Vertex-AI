@@ -56,8 +56,7 @@ notebooks on  [Vertex AI Notebooks](https://cloud.google.com/vertex-ai/docs/gene
 all the notebooks and their descriptions here: 
 [`notebooks`](https://github.com/sayakpaul/Dual-Deployments-on-Vertex-AI/tree/main/notebooks).
 
-Additionally, we plan to release the custom components in a separate directory inside this repository
-for easier reference.
+Additionally, you can find the custom TFX components separately here - [`custom_components`](https://github.com/sayakpaul/Dual-Deployments-on-Vertex-AI/tree/main/custom_components).
 
 ## Acknowledgements
 
