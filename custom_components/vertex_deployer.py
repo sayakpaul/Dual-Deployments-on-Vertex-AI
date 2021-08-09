@@ -1,6 +1,7 @@
 """
 Custom TFX component for deploying a model to a Vertex AI Endpoint.
 Author: Sayak Paul
+Reference: https://github.com/GoogleCloudPlatform/mlops-with-vertex-ai/blob/31bf8a43783a8aa57e823b6441c4822d5bf80fa1/build/utils.py#L97
 """
 
 from tfx.dsl.component.experimental.decorators import component
