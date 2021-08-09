@@ -1,7 +1,7 @@
 """
 Custom TFX component for importing a model into Vertex AI.
 Author: Sayak Paul
-Reference: https://github.com/GoogleCloudPlatform/mlops-with-vertex-ai/blob/31bf8a43783a8aa57e823b6441c4822d5bf80fa1/src/tfx_pipelines/components.py#L74
+Reference: https://github.com/GoogleCloudPlatform/mlops-with-vertex-ai/blob/main/src/tfx_pipelines/components.py#L74
 """
 
 import os
