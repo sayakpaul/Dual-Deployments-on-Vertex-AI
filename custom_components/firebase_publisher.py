@@ -26,6 +26,24 @@ def FirebasePublisher(
     model_display_name: Parameter[str],
     model_tag: Parameter[str],
 ) -> tfx.dsl.components.OutputDict(result=str):
+    """
+    publish trained tflite model to Firebase ML, this component assumes that 
+    trained model and Firebase credential files are stored in GCS locations.
+    
+    Args:   
+        pushed_model: The URI of pushed model obtained from previous component (i.e. Pusher)
+        credential_uri: The URI of Firebase credential. In order to get one, go to Firebase dashboard 
+            and on the Settings page, create a service account and download the service account key file. 
+            Keep this file safe, since it grants administrator access to your project.
+        firebase_dest_gcs_bucket: GCS bucket where the model is going to be temporarily stored.
+            In order to create one, go to Firebase dashboard and on the Storage page, enable Cloud Storage. 
+            Take note of your bucket name.
+        model_display_name: The name to be appeared on Firebase ML dashboard
+        model_tag: The tage name to be appeared on Firebase ML dashboard
+    """
+    
+    model_uri = f"{pushed_model.uri}/model.tflite"
+    
     assert model_uri.split("://")[0] == "gs"
     assert credential_uri.split("://")[0] == "gs"
 
@@ -42,7 +60,6 @@ def FirebasePublisher(
     logging.info(f"download credential.json from {credential_uri} is completed")
 
     # get tflite model file
-    model_uri = f"{pushed_model.uri}/model.tflite"
     tflite_gcs_bucket = model_uri.split("//")[1].split("/")[0]
     tflite_blob_path = "/".join(model_uri.split("//")[1].split("/")[1:])
 
