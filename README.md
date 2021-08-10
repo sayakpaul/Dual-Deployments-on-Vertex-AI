@@ -1,6 +1,6 @@
 # Dual-Deployments-on-Vertex-AI
 
-_By Chansung Park and Sayak Paul_
+_By [Chansung Park](https://github.com/deep-diver) and Sayak Paul_
 
 This project demonstrates a workflow to cover dual model deployment scenarios using [Kubeflow](https://www.kubeflow.org/),
 [TensorFlow Extended (TFX)](https://www.tensorflow.org/tfx), and [Vertex AI](https://cloud.google.com/vertex-ai). We suggest
@@ -34,7 +34,7 @@ this scenario:
 
 ![](figures/sample_architecture.png)
 
-**<sup>Figure developed by <a href="https://github.com/deep-diver">Chansung Park.</a></sup>**
+**<sup>Figure developed by Chansung Park.</a></sup>**
 
 But the story does not end here. What if we wanted to have better control over the models to be built, trained,
 and deployed? Enter TFX! TFX provides the flexibility of writing custom components and including them inside a
