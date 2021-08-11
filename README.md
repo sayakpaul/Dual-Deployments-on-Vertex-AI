@@ -14,7 +14,8 @@ network coverage/internet bandwidth is available your application would instead 
 your application stays resilient and can ensure high availability.
 
 Sometimes we also do layered predictions where we first divide a problem into smaller tasks:
-1) predict if it's a yes/no, 2) Depending on the output of 2) we run the final model. 
+1) predict if it's a yes/no, 
+2) depending on the output of 1) we run the final model. 
 
 In these cases, 1) takes place on-device and 2) takes place on the cloud to ensure a smooth UX. Furthermore, it's
 a good practice to use a mobile-friendly network architecture (such as MobileNet) when considering
