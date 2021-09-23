@@ -4,7 +4,8 @@ _By [Chansung Park](https://github.com/deep-diver) and Sayak Paul_
 
 This project demonstrates a workflow to cover dual model deployment scenarios using [Kubeflow](https://www.kubeflow.org/),
 [TensorFlow Extended (TFX)](https://www.tensorflow.org/tfx), and [Vertex AI](https://cloud.google.com/vertex-ai). We suggest
-reading the accompanying blog post (coming soon) first to get an idea and then following along with the code.
+reading the accompanying [blog post](https://cloud.google.com/blog/topics/developers-practitioners/dual-deployments-vertex-ai ) first
+to get an idea and then following along with the code.
 
 ## Motivation 💻
 
