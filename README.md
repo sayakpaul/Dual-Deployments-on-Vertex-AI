@@ -62,4 +62,4 @@ Additionally, you can find the custom TFX components separately here - [`custom_
 
 ## Acknowledgements
 
-[ML-GDE program](https://developers.google.com/programs/experts/) for providing GCP credits.
+[ML-GDE program](https://developers.google.com/programs/experts/) for providing GCP credits. Thanks to [Karl Weinmeister](https://twitter.com/kweinmeister?lang=hr) and [Robert Crowe](https://twitter.com/robert_crowe?lang=en) for providing review feedback on this project.
